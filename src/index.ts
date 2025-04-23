@@ -71,8 +71,6 @@ function exportToCSV() {
     }
 }
 
-exportToCSV();
-
 function saveLog(log: any) {
     fs.writeFileSync(logFile, JSON.stringify(log, null, 2));
 }
