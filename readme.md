@@ -9,6 +9,8 @@ Um pequeno utilitário em Node.js para monitorar o tempo de uso de aplicativos a
 - [active-win](https://www.npmjs.com/package/active-win) – para capturar a janela ativa do sistema
 - `fs` (File System) – para leitura e escrita dos arquivos de log
 
+## 🧱 O APP AINDA ESTÁ EM CONSTRUÇÃO PORÉM JA É UTILIZÁVEL VIA CLI
+
 ## 🚀 Como usar
 
 ### 1. Clone o repositório
@@ -19,16 +21,19 @@ cd app-monitor
 ```
 
 ### 2. Instale as dependências
+
 ```bash
 npm install
 ```
 
 ### 3. Compile o TypeScript
+
 ```bash
 npx tsc
 ```
 
 ### 4. Rode o monitor
+
 ```bash
 node .\dist\index.js
 ```
@@ -36,6 +41,7 @@ node .\dist\index.js
 Você pode rodar com --inspect se quiser debugar: node --inspect .\dist\index.js
 
 ## 📁 Estrutura dos Logs
+
 ### O arquivo app-log.json é atualizado continuamente e estruturado da seguinte forma:
 
 ```json
@@ -59,18 +65,21 @@ Você pode rodar com --inspect se quiser debugar: node --inspect .\dist\index.js
 As atividades são ordenadas por tempo de uso (do maior para o menor).
 
 ## 💡 Funcionalidades
-* 📊 Monitora o tempo gasto por aplicativo em tempo real
 
-* 📅 Organiza logs por data
+- 📊 Monitora o tempo gasto por aplicativo em tempo real
 
-* 🔢 Agrupa e atualiza automaticamente o tempo de uso
+- 📅 Organiza logs por data
 
-* 📁 Salva os dados em arquivo JSON estruturado
+- 🔢 Agrupa e atualiza automaticamente o tempo de uso
 
-* 🧠 Possibilidade de expandir com categorias, relatórios e dashboard
+- 📁 Salva os dados em arquivo JSON estruturado
+
+- 🧠 Possibilidade de expandir com categorias, relatórios e dashboard
 
 ## 🤝 Contribuindo
+
 ### Sinta-se à vontade para abrir issues e pull requests. Toda contribuição é bem-vinda!
 
 ## 📝 Licença
+
 ### Este projeto está licenciado sob a licença MIT.
