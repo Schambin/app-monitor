@@ -67,8 +67,7 @@ function getTodayDate() {
 function startMonitoring() {
     console.log("App Running...");
 
-    const init = Database.init();
-    init;
+    Database.init();
 
     setInterval(async () => {
         const app = await activeWindow();
