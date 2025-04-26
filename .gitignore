@@ -135,7 +135,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-
 app-log.json
 
 *.db
+
+*.txt
